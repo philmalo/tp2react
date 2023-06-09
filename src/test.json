@@ -1,0 +1,72 @@
+{        "produits":[
+        {
+        "id": 1,
+        "nom": "Éclat d'Étoile - Cheval Magique en Peluche",
+        "description": "Découvrez Éclat d'Étoile, le cheval magique en peluche ! Avec sa robe scintillante et sa capacité à marcher, galoper et danser, il émerveillera les enfants. Caresses-le et des étoiles étincelantes jailliront de son corps, créant une ambiance féérique. Une expérience enchantée en un seul jouet !",
+        "prix": 15.42,
+        "categorie": "jouet"
+        },
+        {
+        "id": 2,
+        "nom": "Pouvoir de Feu - Figurine de Super-héros",
+        "description": "Découvrez le pouvoir de feu avec cette figurine de super-héros ! Elle est équipée d'une armure ignifuge et peut lancer des boules de feu grâce à son bras articulé. Les enfants pourront imaginer des aventures palpitantes en contrôlant le feu à leurs côtés.",
+        "prix": 12.99,
+        "categorie": "jouet"
+        },
+        {
+        "id": 3,
+        "nom": "La Forêt Enchantée - Puzzle 1000 pièces",
+        "description": "Plongez dans l'univers enchanteur de la forêt avec ce puzzle de 1000 pièces ! Les illustrations magnifiques représentent des créatures fantastiques, des arbres mystérieux et des paysages magiques. Un défi passionnant pour les amateurs de puzzles.",
+        "prix": 19.99,
+        "categorie": "puzzle"
+        },
+        {
+        "id": 4,
+        "nom": "Roue Turbo - Voiture de Course Télécommandée",
+        "description": "Préparez-vous pour des courses palpitantes avec cette voiture de course télécommandée ! La roue turbo intégrée lui donne une vitesse incroyable, tandis que les fonctions de direction permettent des virages précis. Les amateurs de vitesse seront ravis !",
+        "prix": 29.99,
+        "categorie": "jouet"
+        },
+        {
+        "id": 5,
+        "nom": "Garde Royale - Déguisement de Chevalier",
+        "description": "Protégez le royaume avec ce déguisement de chevalier de la garde royale ! Composé d'une armure brillante et d'une épée en mousse, les enfants pourront revivre les batailles épiques et défendre l'honneur du royaume.",
+        "prix": 24.99,
+        "categorie": "déguisement"
+        },
+        {
+        "id": 6,
+        "nom": "Le Monde Marin - Livre d'Exploration Sous-Marine",
+        "description": "Découvrez les mystères du monde marin avec ce livre d'exploration sous-marine ! Les illustrations détaillées vous plongeront dans les profondeurs de l'océan, où vous rencontrerez des créatures fascinantes. Un voyage instructif et captivant pour les jeunes explorateurs.",
+        "prix": 14.99,
+        "categorie": "livre"
+        },
+        {
+        "id": 7,
+        "nom": "Super Robot - Kit de Construction",
+        "description": "Construisez votre propre super robot avec ce kit de construction ! Les pièces s'emboîtent facilement et les instructions claires guideront les enfants à chaque étape. Une fois assemblé, le robot peut marcher, parler et lancer des projectiles avec ses bras.",
+        "prix": 34.99,
+        "categorie": "jouet"
+        },
+        {
+        "id": 8,
+        "nom": "Mélodie Céleste - Piano Enchanté",
+        "description": "Éveillez le musicien en herbe avec ce piano enchanté ! Chaque touche émet une note magique et s'illumine dans une couleur différente. Les enfants pourront jouer leurs mélodies préférées et créer de la musique féérique.",
+        "prix": 39.99,
+        "categorie": "instrument"
+        },
+        {
+        "id": 9,
+        "nom": "Jardin Enchanté - Ensemble de Poupées",
+        "description": "Explorez le jardin enchanté avec cet ensemble de poupées ! Chaque poupée représente une créature magique, et les accessoires inclus permettent de recréer des scènes de conte de fées. Laissez libre cours à l'imagination et à l'aventure.",
+        "prix": 22.99,
+        "categorie": "jouet"
+        },
+        {
+        "id": 10,
+        "nom": "Casque Cosmique - Jeu de Réalité Virtuelle",
+        "description": "Plongez dans des mondes virtuels avec ce casque cosmique de réalité virtuelle ! Équipé de capteurs de mouvement, il offre une expérience immersive et captivante. Les jeux et les aventures en réalité virtuelle n'ont jamais été aussi réels.",
+        "prix": 59.99,
+        "categorie": "jeu"
+        }
+    ]}

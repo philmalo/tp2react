@@ -1,0 +1,11 @@
+{
+  "produits": [
+    {
+      "nom": "ajout singulier",
+      "categorie": "jouet",
+      "description": "un autre jouet",
+      "prix": "10.23",
+      "id": 1
+    }
+  ]
+}

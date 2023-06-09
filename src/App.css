@@ -1,38 +1,190 @@
-.App {
+h1{
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+button, form>input{
+  cursor: pointer;
+  padding: 5px 10px;
+  margin-block: 10px;
+  border-radius: 8px;
+  border: none;
+  color: antiquewhite;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+form>input{
+  background-color: antiquewhite;
+  color: green;
+  box-shadow: inset 0 0 0 1px green;
+
+}
+form>input:hover{
+  color: antiquewhite;
+  background-color: green;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+nav{
   display: flex;
-  flex-direction: column;
+  padding-left: 20px;
+  background-color: blue;
+}
+
+a{
+  text-decoration: none;
+  color: antiquewhite;
+  padding-inline: 10px;
+  padding-block: 20px;
+}
+
+a:hover{
+  color: blue;
+  background-color: antiquewhite;
+}
+
+.App{
+  display: grid;
+  grid-template-rows: 1fr auto;
+  min-height: 100vh;
+}
+
+.App>button{
+  margin-left: 20px;
+  padding: 8px 10px;
+  font-size: larger;
+  width: fit-content;
+  background-color: green;
+}
+.App>button:hover{
+  color: green;
+  background-color: antiquewhite;
+  box-shadow: inset 0 0 0 1px green;
+}
+
+.produits{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 20px;
+  margin-inline: 20px;
+  margin-bottom: 20px;
+}
+
+.produit{
+  border: 1px solid black;
+  border-radius: 10px;
+  padding: 0px 10px 10px 10px;
+}
+
+.modifProduit{
+  border: 1px solid black;
+  border-radius: 10px;
+  display: flex;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+
+}
+.modifProduit>div{
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  width: 50%;
+}
+.modifProduit button{
+  background-color: green;
+}
+.modifProduit button:hover{
+  color: green;
+  background-color: antiquewhite;
+  box-shadow: inset 0 0 0 1px green;
 }
 
-.App-link {
-  color: #61dafb;
+.boutonModif{
+  display: flex;
+  justify-content: space-between;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.boutonModif>button:first-of-type{
+  background-color: grey;
+}
+.boutonModif>button:first-of-type:hover{
+  color: grey;
+  background-color: antiquewhite;
+  box-shadow: inset 0 0 0 1px grey;
+}
+.boutonModif>button:last-of-type{
+  font-weight: bold;
+  background-color: red;
+}
+.boutonModif>button:last-of-type:hover{
+  color: red;
+  background-color: antiquewhite;
+  box-shadow: inset 0 0 0 1px red;
+}
+
+dialog{
+    top: 20%;
+    width: 400px;
+    min-height: fit-content;
+    background: antiquewhite;
+    box-shadow: inset 0 0 0 1px black;
+    padding: 20px;
+}
+
+dialog button{
+  background-color: red;
+}
+dialog button:hover{
+  background-color: antiquewhite;
+  color: red;
+  box-shadow: inset 0 0 0 1px red;
+}
+
+.modale *{
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  width: fit-content;
+  justify-content: center;
+}
+.modale h3{
+  align-self: center;
+}
+
+.modale {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.modale-contenu {
+  background-color: antiquewhite;
+  padding: 20px;
+  border: 2px solid black;
+  border-radius: 8px;
+}
+.modale-contenu button{
+  align-self: center;
+}
+
+.non-disponible{
+  text-align: center;
+}
+picture{
+  display: flex;
+  justify-content: center;
+}
+
+Footer{
+  /* position: relative; */
+  display: flex;
+  justify-content: center;
+  /* bottom: 0; */
+  min-height: 40px;
+  color: antiquewhite;
+  background-color: blue;
+  width: 100%;
 }
